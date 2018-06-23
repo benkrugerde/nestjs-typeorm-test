@@ -15,4 +15,7 @@ export abstract class Person {
     @Column()
     lastName: string;
 
+    @Column()
+    type: string;
+
 }

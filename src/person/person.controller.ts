@@ -15,6 +15,8 @@ export class PersonController {
 
     @Get()
     async findSamples() {
-        return await this.personService.findSample();
+        const persons = await this.personService.findSample();
+
+        return persons;
      }
 }

@@ -35,6 +35,6 @@ export class PersonService {
     }
 
     async findSample() {
-        return await this.personRepository.find();
+        return await this.studentRepository.find();
     }
 }
